@@ -17,6 +17,8 @@ public class securityUtils {
 		
 	}
 	public static void main(String[] args) {
+		//changes for priority task2
+		int x=20;
 		String encode=securityUtils.encode("ashokit");
 		System.out.println(encode);
 		String decode=securityUtils.decode(encode);
